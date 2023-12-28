@@ -1,0 +1,8 @@
+[package]
+name = "stress_xgb"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+polars = { version = "0.25.1", features = ["lazy", "is_in"] }
+xgboost = "0.1.4"
